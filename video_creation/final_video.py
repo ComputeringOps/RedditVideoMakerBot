@@ -281,7 +281,7 @@ def make_final_video(
     if settingsbackground["background_thumbnail"] and exists(f"assets/temp/{id}/thumbnail.png"):
         shutil.move(f"assets/temp/{id}/thumbnail.png", f"./results/{subreddit}/thumbnails/{filename}.png")
 
-    save_data(subreddit, filename+".mp4", title, idx, background_config[2])
+    save_data(subreddit, filename+"#shorts #askreddit #meme #memes #reddit_memo #redditguy.mp4", title, idx, background_config[2])
     print_step("Removing temporary files 🗑")
     cleanups = cleanup(reddit_id)
     print_substep(f"Removed {cleanups} temporary files 🗑")
