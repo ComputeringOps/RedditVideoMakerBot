@@ -1,0 +1,50 @@
+[ai]
+ai_similarity_enabled = false
+ai_similarity_keywords = ""
+
+[settings]
+allow_nsfw = false
+theme = "light"
+times_to_run = 100
+opacity = 0.9
+transition = 0.2
+storymode = false
+storymodemethod = 1
+storymode_max_length = 1000
+fps = 30
+resolution_w = 1080
+resolution_h = 1920
+
+[reddit.creds]
+client_id = "dsOiDHr2TuSya-jgsYauqA"
+client_secret = "_43MiKWzadrB5UBxoDDHV9cwLahaoA"
+username = "Small_Twist_2054"
+password = "maheshishere"
+2fa = false
+
+[reddit.thread]
+random = false
+subreddit = "AskReddit"
+post_id = ""
+max_comment_length = 500
+min_comment_length = 1
+post_lang = ""
+min_comments = 20
+
+[settings.background]
+background_choice = ""
+background_thumbnail = false
+background_thumbnail_font_family = "arial"
+background_thumbnail_font_size = 96
+background_thumbnail_font_color = "255,255,255"
+
+[settings.tts]
+voice_choice = ""
+aws_polly_voice = "Matthew"
+streamlabs_polly_voice = "Amy"
+tiktok_voice = "en_us_001"
+tiktok_sessionid = ""
+python_voice = "1"
+py_voice_num = "2"
+silence_duration = 0.3
+no_emojis = false
