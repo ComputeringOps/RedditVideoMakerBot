@@ -15,6 +15,24 @@ fps = 30
 resolution_w = 1080
 resolution_h = 1920
 
+[settings.background]
+background_choice = ""
+background_thumbnail = false
+background_thumbnail_font_family = "arial"
+background_thumbnail_font_size = 96
+background_thumbnail_font_color = "255,255,255"
+
+[settings.tts]
+voice_choice = "streamlabspolly"
+aws_polly_voice = "Matthew"
+streamlabs_polly_voice = "Amy"
+tiktok_voice = "en_us_001"
+tiktok_sessionid = ""
+python_voice = "1"
+py_voice_num = "2"
+silence_duration = 0.3
+no_emojis = false
+
 [reddit.creds]
 client_id = "dsOiDHr2TuSya-jgsYauqA"
 client_secret = "_43MiKWzadrB5UBxoDDHV9cwLahaoA"
@@ -30,21 +48,3 @@ max_comment_length = 500
 min_comment_length = 1
 post_lang = ""
 min_comments = 20
-
-[settings.background]
-background_choice = ""
-background_thumbnail = false
-background_thumbnail_font_family = "arial"
-background_thumbnail_font_size = 96
-background_thumbnail_font_color = "255,255,255"
-
-[settings.tts]
-voice_choice = ""
-aws_polly_voice = "Matthew"
-streamlabs_polly_voice = "Amy"
-tiktok_voice = "en_us_001"
-tiktok_sessionid = ""
-python_voice = "1"
-py_voice_num = "2"
-silence_duration = 0.3
-no_emojis = false
